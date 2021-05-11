@@ -22,7 +22,7 @@ const App = () => {
   ]);
 
   useEffect(() => {
-    console.log(array);
+    console.log(array, 'array');
   }, [array]);
 
   const [isModalVisible, setModalVisible] = useState(false);
